@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fe02967618b6ee54572c79b43d09b09",
+    "content-hash": "38afbc5ac0d311af6d74c3bce7db5bf0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5296,26 +5296,26 @@
         },
         {
             "name": "unisharp/laravel-filemanager",
-            "version": "v2.1.0",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/UniSharp/laravel-filemanager.git",
-                "reference": "a2c390b1414fa35457fc5c6d01068dcf6dac7cd2"
+                "reference": "05da8be42a51d9942cd0201152789b1445f2c671"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UniSharp/laravel-filemanager/zipball/a2c390b1414fa35457fc5c6d01068dcf6dac7cd2",
-                "reference": "a2c390b1414fa35457fc5c6d01068dcf6dac7cd2",
+                "url": "https://api.github.com/repos/UniSharp/laravel-filemanager/zipball/05da8be42a51d9942cd0201152789b1445f2c671",
+                "reference": "05da8be42a51d9942cd0201152789b1445f2c671",
                 "shasum": ""
             },
             "require": {
                 "ext-exif": "*",
                 "ext-fileinfo": "*",
-                "illuminate/config": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
-                "illuminate/container": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
-                "illuminate/filesystem": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
-                "illuminate/http": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
-                "illuminate/support": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0",
+                "illuminate/config": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0",
+                "illuminate/container": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0",
+                "illuminate/filesystem": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0",
+                "illuminate/http": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0",
+                "illuminate/support": "5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || ^6.0 || ^7.0 || ^8.0",
                 "intervention/image": "2.*",
                 "php": ">=7.2.0"
             },
@@ -5367,7 +5367,11 @@
                 "tinymce",
                 "upload"
             ],
-            "time": "2020-05-10T10:10:07+00:00"
+            "support": {
+                "issues": "https://github.com/UniSharp/laravel-filemanager/issues",
+                "source": "https://github.com/UniSharp/laravel-filemanager/tree/v2.3.0"
+            },
+            "time": "2021-10-28T15:58:43+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
